@@ -1,0 +1,461 @@
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px) {
+
+    .modal-content {
+        left: 0% !important;
+        width: 100% !important;
+    }
+
+    .navbar-brand {
+        padding: 0px;
+        height: 65px !important;
+    }
+
+    .chartAreaDiv {
+        margin:0 0 0 0 !important;
+        padding: 0 0 0 0 !important;
+        /*width: 110%;*/
+        height: 400px !important;
+    }
+
+.chartWithLegend{
+    height: 600px !important;
+}
+    #chartdiv1, #chartdiv3{
+            width:635px !important;
+    height:650px !important;
+    }
+
+   #chartdiv2, #chartdiv4, #chartdiv5, #chartdiv6{
+    width:635px !important;
+    height:500px !important;
+}
+
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+/*body{*/
+/*padding-right: 20px;*/
+/*padding-left: 20px;*/
+/*}*/
+
+/*select{*/
+/*border: 1.4px solid lightblue !important;*/
+/*}*/
+
+/*.header{*/
+/*padding: 10px;*/
+/*color: blue;*/
+/*!*text-align: center;*!*/
+/*border-bottom: 1px solid #5fa8cb ;*/
+/*}*/
+
+/*.menuBar{*/
+/*padding: 20px;*/
+/*}*/
+
+/*.map1{*/
+/*!*border: 1px solid lightblue;*!*/
+/*font-size: 1.5em;*/
+/*padding-bottom: 20px;*/
+/*padding-top: 20px;*/
+/*color: #222;*/
+/*}*/
+
+/*.map2{*/
+/*!*border: 1px solid lightblue;*!*/
+/*padding-bottom: 20px;*/
+/*padding-top: 20px;*/
+/*border-radius: 6px;*/
+
+/*}*/
+
+/*.footer{*/
+/*!*background-color: #222;*!*/
+/*border-top: 1px solid #5fa8cb;*/
+/*font-size: 1.1em;*/
+/*!*font-weight: bold; *!*/
+/*min-height: 35px;*/
+/*padding: 5px;*/
+/*color: black;*/
+/*text-align: center;*/
+/*}*/
+
+/*.footerAnchor{*/
+/*color: dodgerblue;*/
+/*}*/
+
+/*.footerAnchor:hover {*/
+/*color: cornflowerblue;*/
+/*text-decoration: none;*/
+/*}*/
+
+/*.footerAnchor:visited {*/
+/*color:dodgerblue;*/
+/*text-decoration: none;*/
+/*}*/
+
+/*.footerAnchor:active {*/
+/*color: blue;*/
+/*text-decoration: none;*/
+/*}*/
+#chartdiv1, #chartdiv2, #chartdiv3, #chartdiv4, #chartdiv5, #chartdiv6{
+    width:100%;
+}
+
+.chartAreaDiv {
+    height: 450px;
+}
+
+.chartWithoutLegend{
+    height: 500px;
+}
+.chartWithLegendBefore{
+    height: 500px;
+}
+
+.chartWithLegend{
+    height: 600px;
+    height: 650px;
+}
+
+.custom-row-margin {
+    margin-bottom: 100px;
+}
+
+.benchmark-form {
+    margin-bottom: 120px;
+
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+    font-family: 'Gentium Book Basic',serif;
+}
+
+#rightNavbar {
+    padding: 20px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ff6d00;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: orangered;
+    background-color: white;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7;
+}
+
+.margin30px {
+    margin-bottom: 30px;
+    /*width: 80%;*/
+}
+
+/*.modal-dialog {*/
+/*width: 30%;*/
+/*}*/
+
+.modal {
+    text-align: center;
+}
+
+.footer {
+    font-size: 1.2em;
+    color: white;
+    /*padding: 2px;*/
+    background-color: black;
+    background-image: unset;
+}
+
+#footerIcons {
+    font-size: 1.8em;
+}
+
+.copyright {
+    padding: 10px;
+}
+
+.pageContent {
+    background-color: #e2e2e2 !important;
+    text-align: center;
+}
+
+.fourFooter {
+    margin-top: 50px;
+    height: 50px;
+}
+
+.lowerNav {
+    font-size: 2em;
+}
+
+.lowerNavIcon {
+    font-size: 3em;
+}
+
+
+
+article{
+    display: block;
+    font-family: 'Gentium Book Basic',serif;
+    color: #5f5858;
+    font-size: 1.6em;
+    min-height: 100px;
+    padding-left:5em;
+    padding: 0 15% 0 15%;
+    text-align: justify;
+    margin: 0 0 1.5em;
+    vertical-align: baseline;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.text-article:first-letter {
+    float: left;
+    font-weight: bold;
+    font-size: 60px;
+    font-size: 8rem;
+    line-height: 40px;
+    line-height: 6rem;
+    height: 4rem;
+    text-transform: uppercase;
+}
+
+#leftSide{
+text-align: left;
+}
+.aboutText{
+margin-top: 50px;
+}
+
+
+hr {
+    border-top: 1px solid darkgrey;
+}
+
+.checkboxDiv ul > li > label {
+    font-size: .9em;
+    vertical-align: top;
+}
+
+.checkboxDiv ul > li > label > input {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
+}
+
+.checkboxDiv {
+    padding: 30px 0 0 50px;
+}
+
+.checkboxDiv ul {
+    text-align: left;
+}
+
+/*for share popover AND button*/
+
+.shareDiv {
+    /*text-decoration: none;*/
+    /*color: grey;*/
+    border: 1px solid grey;
+    padding: 0px;
+    width: 76px;
+    /*border-radius: 50%;*/
+    /*padding: 5px;*/
+    box-shadow: 2px 2px grey;
+    cursor: pointer;
+    /*margin-bottom: -19px;*/
+    /*position: absolute;*/
+    /*top: 0px;*/
+    /*left: 60px;*/
+    /*z-index: 100;*/
+    color: grey;
+}
+
+#shareDiv-2, #shareDiv-4 {
+    left: 30px;
+}
+
+#shareAnchor2 {
+    /*margin-bottom: -19px;*/
+    /*position: absolute;*/
+    /*top:15px;*/
+    /*left: -40px;*/
+    /*z-index: 100;*/
+    /*color: grey;*/
+}
+
+.shareAnchor {
+    font-size: 2em;
+}
+
+.popover {
+    max-width: 400px;
+    border: 1px solid lightgrey;
+    border-radius: 40%;
+    padding: -50px;
+    margin-left: 50px;
+
+}
+
+.popover.top > .arrow {
+    margin-left: -30px;
+}
+
+.pop {
+    color: grey;
+    padding: 10px;
+}
+
+.pop:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/*for share popover AND button ends here*/
+
+address {
+    font-size: 1.5em;
+    color: #212121;
+    padding: 0 60px 0 60px;
+
+}
+
+.analyse {
+    margin-left: 2%;
+}
+
+.container {
+    margin: 0;
+    width: 100%;
+}
+
+.navbar {
+    margin: 0;
+}
+
+.well {
+    margin-top: -3px;
+    text-align: center;
+    background-color: rgba(173, 216, 230, 0.34);
+}
+
+.orangeText {
+    color: #ff6d00;
+}
+
+body.loading {
+    overflow: hidden !important;
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .ravimodal {
+    display: block !important;
+}
+
+.ravimodal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, .8) url('/media/ajax-loader.gif') 50% 50% no-repeat;
+}
+
+.navbar-brand {
+    padding: 0px;
+    height: 90px;
+}
+
+.navbar-brand > img {
+    height: 100%;
+    padding: 15px;
+    width: auto;
+}
+
+.benchmark-form li {
+    list-style: none !important;
+
+}
+
+.benchmark-form ul li > label {
+    font-weight: normal;
+}
+
+.benchmark-form ul li:first-child {
+    font-style: italic;
+}
+
+.loginModalContent {
+    width: 75%;
+    left: 50%;
+    top: 50%;
+}
+
+.chart-shared-content {
+    width: 71%;
+    font-size: 1.6em;
+    margin:auto;
+
+    /*left: 16%;*/
+    margin-top: 25%;
+}
+
+.chart-shared-footer{
+    text-align: center;
+}
+
+/*.labelInput{*/
+/*width:50%;*/
+/*}*/
+
+#submitBtnDiv {
+    left: 42%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#modalfooter {
+    color: #cb3432;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.disabledWrapper {
+    position: relative;
+    cursor: not-allowed;
+}
+
+.divAlign{
+    text-align: center;
+}
+
+.overflowDiv{
+    overflow: auto;
+}
